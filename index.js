@@ -3,13 +3,11 @@ let person = {
 }
 
 function justInvoke(fn) {
-  return function(fn(this.name){
-    
-  });
+
 };
 
 function setThisWithCall(fn, thisValue) {
-  let
+
 };
 
 function setThisWithApply(fn, thisValue) {
