@@ -1,11 +1,11 @@
-function invokeFunction(fn) {
-  function justInvoke(fn){
+let name = 'Bob'
 
-  }
+function invokeFunction(fn) {
+  console.log()
 };
 
 function setThisWithCall(fn, thisValue) {
-  let bob = thisValue;
+
 };
 
 function setThisWithApply(fn, thisValue) {
