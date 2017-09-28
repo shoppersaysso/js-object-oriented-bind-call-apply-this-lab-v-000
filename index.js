@@ -1,5 +1,5 @@
 let person = {
-  name: 'Bob'
+  name: 'bob'
 }
 
 function justInvoke(fn) {
