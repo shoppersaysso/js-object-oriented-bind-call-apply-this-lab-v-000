@@ -9,8 +9,8 @@ describe('global functions', function() {
      bob = {name: 'bob'}
   })
 
-  describe('invokeFunction', function(){
-    it('calls and returns the function as a callback, that shows that this is global from the callack', function(){
+  describe('justInvoke', function(){
+    it('calls and returns the function as a callback, that shows that this is global from the callback', function(){
       expect(justInvoke(returnsThis)).to.equal(window)
     })
   })
