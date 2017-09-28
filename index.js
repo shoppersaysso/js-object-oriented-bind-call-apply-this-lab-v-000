@@ -3,7 +3,7 @@ let person = {
 }
 
 function justInvoke(fn) {
-  console.log(fn);
+  return fn;
 };
 
 function setThisWithCall(fn, thisValue) {
