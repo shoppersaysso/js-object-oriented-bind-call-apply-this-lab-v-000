@@ -7,11 +7,11 @@ function justInvoke(fn) {
 };
 
 function setThisWithCall(fn, thisValue) {
-  return fn.call(person, thisValue);
+  return fn.call(this.name, thisValue);
 };
 
 function setThisWithApply(fn, thisValue) {
-  return fn.apply(person, thisValue);
+  return fn.apply(this.name, thisValue);
 };
 
 function returnNewFunctionOf(functionToBeCopied, thisValue) {
