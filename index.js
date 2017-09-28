@@ -5,7 +5,7 @@ function invokeFunction(fn) {
 }
 
 function setThisWithCall(fn, thisValue) {
-
+  let bob = thisValue
 }
 
 function setThisWithApply(fn, thisValue)
