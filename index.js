@@ -14,6 +14,10 @@ function setThisWithApply(fn, thisValue) {
 
 };
 
+function returnNewFunctionOf() {
+  
+}
+
 
 let Bank = {
 	balance: 100
@@ -31,5 +35,3 @@ let arguments = [30, 20];
 // spendMoney.apply(Bank, arguments);
 
 let example = spendMoney.bind(Bank);
-example(10, 45);
-console.log(example);
