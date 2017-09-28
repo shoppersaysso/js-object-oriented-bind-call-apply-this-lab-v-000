@@ -1,3 +1,3 @@
-function invokeFunction(function()) {
+function invokeFunction(function justInvoke()) {
   
 }
