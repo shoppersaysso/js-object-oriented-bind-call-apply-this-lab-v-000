@@ -3,7 +3,7 @@ let person = {
 }
 
 function justInvoke(fn) {
-
+  console.log(fn)
 };
 
 function setThisWithCall(fn, thisValue) {
@@ -33,5 +33,3 @@ let arguments = [30, 20];
 
 // spendMoney.call(Bank, 10, 20);
 // spendMoney.apply(Bank, arguments);
-
-let example = spendMoney.bind(Bank);
