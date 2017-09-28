@@ -3,7 +3,9 @@ let person = {
 }
 
 function justInvoke(fn) {
-  return function(fn(this.name))
+  return function(fn(this.name){
+    
+  });
 };
 
 function setThisWithCall(fn, thisValue) {
