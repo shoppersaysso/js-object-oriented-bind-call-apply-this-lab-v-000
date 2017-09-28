@@ -11,7 +11,7 @@ function setThisWithCall(fn, thisValue) {
 };
 
 function setThisWithApply(fn, thisValue) {
-
+  return fn.apply(person, thisValue);
 };
 
 function returnNewFunctionOf(functionToBeCopied, thisValue) {
