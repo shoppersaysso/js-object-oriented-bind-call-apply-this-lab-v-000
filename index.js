@@ -1,7 +1,7 @@
 let name = 'Bob'
 
 function invokeFunction(fn) {
-  console.log(fn(this.name));
+  let justInvoke = (fn(this.name));
 };
 
 function setThisWithCall(fn, thisValue) {
