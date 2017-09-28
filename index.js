@@ -7,7 +7,7 @@ function justInvoke(fn) {
 };
 
 function setThisWithCall(fn, thisValue) {
-
+  return fn.call(person, thisValue);
 };
 
 function setThisWithApply(fn, thisValue) {
