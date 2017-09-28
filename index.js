@@ -1,6 +1,3 @@
-let person = {
-  name: 'bob'
-}
 
 function justInvoke(fn) {
   return fn(this.name);
